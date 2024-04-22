@@ -2,10 +2,17 @@
     font-family: "EB Garamond", serif;
 }
 
+body {
+    background-color: hsla(125, 70%, 20%, 0.7);
+    margin: 0;
+}
+
 header {
     text-align: center;
-    margin: 30px;
+    margin: 0 auto;
     padding: 10px;
+    background-color: hsla(100, 20%, 90%, 0.7);
+    width: 100%;
 }
 
 h1 {
@@ -13,12 +20,15 @@ h1 {
     font-size: 80px;
     padding: 0;
     margin: 0;
+    color: black;
+    font-weight: 900;
 }
 
 #subheading {
     font-size: 20px;
     padding: 0;
     margin: 0;
+    font-weight: bold;
 }
 
 nav {
@@ -32,6 +42,18 @@ ul {
 
 li {
     font-size: 20px;
+    font-weight: 500;
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 40px;
+}
+
+#main-headshot {
+    height: 300px;
+    display: inline-block;
+    border: 5px solid black;
+}
+
+.intro {
+    width: 50%;
+    margin: 20px auto;
 }
